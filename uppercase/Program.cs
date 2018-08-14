@@ -6,7 +6,11 @@ namespace uppercase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string mystring = "I am eating dinner now";
+            mystring = mystring.ToUpper();
+            Console.WriteLine(mystring);
+            Console.ReadLine();
+
         }
     }
 }
